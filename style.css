@@ -156,8 +156,239 @@ button{
     margin-left: 0;
 }
 
+/* features description styles */
 
+.features-description{
+    display: flex;
+    margin-top: 130px;
+    gap: 3.4rem;
+}
 
+.features-description > div {
+    flex: 1;
+}
+
+.features-description-text h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    max-width: 30rem;
+    color: #131313;
+}
+
+.features-description-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+    max-width: 36rem;
+}
+
+.feature-excerpt h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #131313;
+}
+
+.feature-excerpt {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 15px;
+    
+}
+
+.experience-btn{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 600;
+    padding: 45px 45px 45px 45px;
+    margin-bottom: 50px;
+}
+
+.small-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* facts section styles */
+
+.facts h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.facts p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    max-width: 542px;
+}
+
+.fact-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.fact{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.fact:hover{
+    transform:scale(1.5);
+    transition: 2s;
+}
+
+.fact h3{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.fact p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    
+}
+
+.icon{
+    font-size: 30px;
+    color: #FF900E;
+}
+
+/* sponsors styles */
+
+.sponsor-text{
+    max-width: 543px;
+    margin: 0 auto;
+    
+}
+
+.sponsor-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.sponsor-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: center;
+}
+
+.sponsors-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+/* contact section styles */
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-text{
+    width: 40%;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+.contact-text h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.contact-text p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.contact-form{
+    width: 60%;
+    padding-top: 80px;
+    padding-left: 150px;
+    margin-left: 50px;
+    
+    
+}
+
+.form-field{
+    background-color: #FFFFFF;
+    box-shadow: 0px 12px 43px -2px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+.label{
+    font-size: 20px;
+    font-weight: 500;
+    color: #131313;
+    margin-bottom: 15px;
+}
+textarea{
+    resize: none;
+    width: 450px;
+    outline: none;
+}
+
+input{
+    background-color: #E7E7E7;
+    border: 0px solid #E7E7E7;;
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.submit{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+/* footer section styles */
+
+.footer{
+    background-color: #FFF4E7;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 130px;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    padding-top: 35px;
+}
 
 /* responsive styles */
 
