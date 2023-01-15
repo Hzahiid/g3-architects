@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* header styles */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-area {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.logo h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    text-transform: capitalize;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    padding-right: 15px;
+}
+
+.hero-area{
+    margin-top: 200px;
+}
+
+.hero-text{
+    max-width: 45%;
+    margin: 0 auto;
+
+}
+
+.hero-text h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.hero-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+.header-btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-img img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+
+/* responsive styles */
+
+@media screen and (max-width: 576px) {
+    
+    .hero-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img img{
+        max-width: 100%;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .header-area h2{
+        font-size: 2.5rem;
+    }
+
+    .hero-img{
+        margin-top: 20px;
+    }
+
+   
+}
