@@ -158,13 +158,13 @@ button{
 
 /* features description styles */
 
-.features-description{
+.features-container{
     display: flex;
     margin-top: 130px;
     gap: 3.4rem;
 }
 
-.features-description > div {
+.features-container > div {
     flex: 1;
 }
 
@@ -200,7 +200,7 @@ button{
 }
 
 .experience-btn{
-    width: 342px;
+    width: 383px;
     height: 200px;
     background-color: #FF900E;
     border: 0;
@@ -209,6 +209,7 @@ button{
     font-weight: 600;
     padding: 45px 45px 45px 45px;
     margin-bottom: 50px;
+    border-radius: 8px;
 }
 
 .small-text{
@@ -443,7 +444,7 @@ input:focus{
         align-items: center;
     }
 
-    .features-description{
+    .features-container{
         flex-direction: column;
     }
 
