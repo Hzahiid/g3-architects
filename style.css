@@ -158,13 +158,13 @@ button{
 
 /* features description styles */
 
-.features-container{
+.features-description{
     display: flex;
     margin-top: 130px;
     gap: 3.4rem;
 }
 
-.features-container > div {
+.features-description > div {
     flex: 1;
 }
 
@@ -444,7 +444,7 @@ input:focus{
         align-items: center;
     }
 
-    .features-container{
+    .features-description{
         flex-direction: column;
     }
 
