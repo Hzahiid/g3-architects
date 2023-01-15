@@ -76,7 +76,7 @@ button{
     margin: 0 auto;
 }
 
-.header-btn{
+.btn{
     width: 180px;
     height: 64px;
     background-color: #FF900E;
@@ -93,6 +93,69 @@ button{
     height: auto;
     margin-bottom: 40px;
 }
+
+/* features styles */
+
+.features{
+    display: flex;
+    margin-top: 45px;
+    
+}
+
+.features > div{
+    flex: 1;
+}
+
+.feature-images {
+    display: grid;
+    row-gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-images img{
+    width: 340px;
+    height: 340px;
+}
+
+.feature-text{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.feature-text h2{
+    font-size: 45px;
+    font-weight: 500;
+    max-width: 60%;
+    align-items: center;
+}
+
+.clr{
+    color: #727272;
+}
+.black-clr{
+    color: #131313;
+    font-weight: 700;
+}
+
+.orange-clr{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    max-width: 60%;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.feature-btn{
+    margin-top: 32px;
+    margin-left: 0;
+}
+
 
 
 
@@ -118,6 +181,16 @@ button{
 
     .hero-img{
         margin-top: 20px;
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
     }
 
    
